@@ -48,7 +48,7 @@ UPDATE_PACKAGE() {
 UPDATE_PACKAGE "argon" "sbwml/luci-theme-argon" "openwrt-24.10"
 #UPDATE_PACKAGE "luci-app-daed" "QiuSimons/luci-app-daed" "master"
 
-UPDATE_PACKAGE "homeproxy" "Glunefish/GPackages" "Packages"
+UPDATE_PACKAGE "homeproxy" "Glunefish/GPackages" "Packages" "" "openwrt-adguardhome openwrt-gecoosac openwrt-lucky luci-app-pushbot"
 
 #UPDATE_PACKAGE "homeproxy" "VIKINGYFY/homeproxy" "main"
 #UPDATE_PACKAGE "nikki" "nikkinikki-org/OpenWrt-nikki" "main"
